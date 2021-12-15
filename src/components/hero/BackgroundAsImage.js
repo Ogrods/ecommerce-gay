@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
+import background from "images/top-hero.jpg";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
@@ -17,7 +18,7 @@ const StyledHeader = styled(Header)`
 `;
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover`}
-  background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
+  background-image: url(${background});
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-primary-500 opacity-25`;
@@ -87,7 +88,7 @@ export default () => {
           <LeftColumn>
             <Notification>Sell your merchandise exactly the way you want to.</Notification>
             <Heading>
-              <span>Have the best</span>
+              <span>Your own custom</span>
               <br />
               <SlantedBackground>Virtual Storefront.</SlantedBackground>
             </Heading>
