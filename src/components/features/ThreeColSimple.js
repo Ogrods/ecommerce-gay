@@ -60,14 +60,14 @@ export default ({
     },
     {
       imageSrc: SupportIconImage,
-      title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
+      title: "Personalized Support",
+      description: "Working for you to expand your reach, accelerate your sales, service your customers and grow your business.",
       url: "https://google.com"
     },
     {
       imageSrc: CustomizeIconImage,
       title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali placeholder text",
+      description: "Curated visuals, typography and color schemes for an appealing and immersive experience.",
       url: "https://reddit.com"
     }
   ],
@@ -79,7 +79,7 @@ export default ({
   imageCss = null
 }) => {
   /*
-   * This componets accepts a prop - `cards` which is an array of object denoting the cards. Each object in the cards array can have the following keys (Change it according to your need, you can also add more objects to have more cards in this feature component):
+   * These components accepts a prop - `cards` which is an array of object denoting the cards. Each object in the cards array can have the following keys (Change it according to your need, you can also add more objects to have more cards in this feature component):
    *  1) imageSrc - the image shown at the top of the card
    *  2) title - the title of the card
    *  3) description - the description of the card

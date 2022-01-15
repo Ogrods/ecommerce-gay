@@ -40,19 +40,19 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
-      <Features
-        subheading={<Subheading>Features</Subheading>}
-        heading={
-          <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
-          </>
-        }
-      />
       <MainFeature
         subheading={<Subheading>Quality Work</Subheading>}
         imageSrc={heroScreenshotImageSrc}
         imageBorder={true}
         imageDecoratorBlob={true}
+      />
+      <Features
+        subheading={<Subheading>Features</Subheading>}
+        heading={
+          <>
+            The last digital partner <HighlightedText>you'll ever need.</HighlightedText>
+          </>
+        }
       />
       <FeatureWithSteps
         subheading={<Subheading>STEPS</Subheading>}
