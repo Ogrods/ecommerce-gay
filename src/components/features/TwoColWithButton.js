@@ -47,7 +47,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Through strategic fusion of content management and commerce, we empower you to scale further, engage deeper, and sell more.",
+  description = "Bring your brand to life and connect direct to your customers with a customizable, responsive ecommerce site. Our team of experts empower you to scale further, engage deeper, and sell more.",
   primaryButtonText = "About Us",
   primaryButtonUrl = "/#",
   imageSrc = TeamIllustrationSrc,

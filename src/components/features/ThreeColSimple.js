@@ -56,19 +56,19 @@ export default ({
       imageSrc: ShieldIconImage,
       title: "Secure",
       description: "We strictly only deal with vendors that provide top notch security.",
-      url: "https://timerse.com"
+      url: "/#"
     },
     {
       imageSrc: SupportIconImage,
       title: "Personalized Support",
       description: "Working for you to expand your reach, accelerate your sales, service your customers and grow your business.",
-      url: "https://google.com"
+      url: "/#"
     },
     {
       imageSrc: CustomizeIconImage,
       title: "Customizable",
       description: "Curated visuals, typography and color schemes for an appealing and immersive experience.",
-      url: "https://reddit.com"
+      url: "/#"
     }
   ],
   linkText = "Learn More",
