@@ -27,7 +27,7 @@ import GetStarted from "components/cta/GetStartedLight";
 
 import Footer from "components/footers/MiniCenteredFooter.js";
 
-import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
+import heroScreenshotImageSrc from "images/wildcat-tutoring.png";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2b.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
