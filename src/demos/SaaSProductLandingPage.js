@@ -66,7 +66,7 @@ export default () => {
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
-      <MainFeature2
+      {/* <MainFeature2
         subheading={<Subheading>VALUES</Subheading>}
         heading={
           <>
@@ -89,8 +89,8 @@ export default () => {
             iconContainerCss: tw`bg-red-300 text-red-800`
           }
         ]}
-      />
-      <Pricing
+      /> */}
+      {/* <Pricing
         subheading={<Subheading>Pricing</Subheading>}
         heading={
           <>
@@ -121,7 +121,7 @@ export default () => {
             features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
           }
         ]}
-      />
+      /> */}
       <Testimonial
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
