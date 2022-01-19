@@ -59,16 +59,16 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      heading: "Contact Us",
+      description: "Let's strategize solutions for the goals, challenges and opportunities your company will encounter in your digital space."
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Build",
+      description: "Design your storefront with us top to bottom according to your brand - the way you want it."
     },
     {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      heading: "Sell",
+      description: "Monitor patterns and insights through ongoing analysis, dashboards, predictive models, and data visualizations."
     }
   ];
 
