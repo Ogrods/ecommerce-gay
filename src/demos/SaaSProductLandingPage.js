@@ -28,7 +28,7 @@ import GetStarted from "components/cta/GetStartedLight";
 import Footer from "components/footers/MiniCenteredFooter.js";
 
 import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
-import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+import macHeroScreenshotImageSrc from "images/hero-screenshot-2b.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
@@ -122,7 +122,7 @@ export default () => {
           }
         ]}
       /> */}
-      <Testimonial
+      {/* <Testimonial
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
           <>
@@ -151,7 +151,7 @@ export default () => {
             customerTitle: "Founder, EventsNYC"
           }
         ]}
-      />
+      /> */}
       <FAQ
         subheading={<Subheading>FAQS</Subheading>}
         heading={
@@ -161,34 +161,34 @@ export default () => {
         }
         faqs={[
           {
-            question: "Are all the templates easily customizable ?",
+            question: "Will my site be fully customizable?",
             answer:
-              "Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Yes, our team will go over all options during the construction of your storefront and provide you with the tools to continue to edit and grow your online business. Anything that is out of your reach is within ours!"
           },
           {
-            question: "How long do you usually support an standalone template for ?",
+            question: "What platforms are available to me?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "We utilize a variety of industry standard platforms and vendors including Shopify, Wordpress, WooCommerce, Square, SalesForce, and many more. The choice is yours when it comes to the best fit for your business."
           },
           {
-            question: "What kind of payment methods do you accept ?",
+            question: "What kind of payment methods do you accept?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Based on the platform your site is built on, you will have access to up to 100 different credit card payment providers, with both direct and external payment options."
           },
           {
-            question: "Is there a subscribption service to get the latest templates ?",
+            question: "Can I use my existing site or domain?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Absolutely! Your site can be outfitted with new payment gateways, or we can rebuild it with you on a modernized platform. We make sure your digital brand voice propagates loud and clear throughout all digital engagements."
           },
           {
-            question: "Are the templates compatible with the React ?",
+            question: "Can I cancel my account at any time?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Yes. If you ever decide that Ecommerce.gay isn’t the best ecommerce solution for your business, simply cancel your account."
           },
           {
-            question: "Do you really support Internet Explorer 11 ?",
+            question: "Do I have to sell the same products in-store as I do online?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "No, you can choose exactly what products to sell online, in-store, or both."
           }
         ]}
       />
