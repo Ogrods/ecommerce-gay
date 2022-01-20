@@ -166,6 +166,11 @@ export default () => {
               "Yes, our team will go over all options during the construction of your storefront and provide you with the tools to continue to edit and grow your online business. Anything that is out of your reach is within ours!"
           },
           {
+            question: "Do I need to have a store on my site?",
+            answer:
+              "Not at all! Your site can absolutely be designed to run as a promotional tool - our sites are simply built and designed with commerce in mind, from the ground up. If you want to sell merch, we can always add store and payment components to your site later!"
+          },
+          {
             question: "What platforms are available to me?",
             answer:
               "We utilize a variety of industry standard platforms and vendors including Shopify, Wordpress, WooCommerce, Square, SalesForce, and many more. The choice is yours when it comes to the best fit for your business."
@@ -184,11 +189,6 @@ export default () => {
             question: "Can I cancel my account at any time?",
             answer:
               "Yes. If you ever decide that Ecommerce.gay isn’t the best ecommerce solution for your business, simply cancel your account."
-          },
-          {
-            question: "Do I have to sell the same products in-store as I do online?",
-            answer:
-              "No, you can choose exactly what products to sell online, in-store, or both."
           }
         ]}
       />
