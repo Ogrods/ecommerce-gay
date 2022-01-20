@@ -73,7 +73,7 @@ export default () => {
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="/#">
+      <PrimaryLink href="/contact">
         Get Started
       </PrimaryLink>
     </NavLinks>

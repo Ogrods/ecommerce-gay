@@ -56,19 +56,19 @@ export default ({
       imageSrc: ShieldIconImage,
       title: "Secure",
       description: "We strictly only deal with vendors and platforms that provide top notch security measures.",
-      url: "/#"
+      url: "/about"
     },
     {
       imageSrc: SupportIconImage,
       title: "Personalized Support",
       description: "Working for you to expand your reach, accelerate your sales, service your customers and grow your business.",
-      url: "/#"
+      url: "/about"
     },
     {
       imageSrc: CustomizeIconImage,
       title: "Customizable",
       description: "Curated visuals, typography and color schemes for an appealing and immersive experience.",
-      url: "/#"
+      url: "/about"
     }
   ],
   linkText = "Learn More",

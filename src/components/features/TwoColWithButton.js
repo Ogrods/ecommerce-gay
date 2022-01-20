@@ -49,7 +49,7 @@ export default ({
   ),
   description = "Bring your brand to life and connect direct to your customers with a customizable, responsive ecommerce site. Our team of experts empower you to scale further, engage deeper, and sell more.",
   primaryButtonText = "About Us",
-  primaryButtonUrl = "/#",
+  primaryButtonUrl = "/about",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,

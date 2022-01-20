@@ -28,7 +28,7 @@ export default ({
   primaryLinkText = "Call Us",
   primaryLinkUrl = "tel:8603059789",
   secondaryLinkText = "Send a Message",
-  secondaryLinkUrl = "http://google.com",
+  secondaryLinkUrl = "/contact",
   pushDownFooter = true
 }) => {
   return (
