@@ -85,18 +85,18 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 /* Ready Made Pages (from demos folder) */
 // import EventLandingPage from "demos/EventLandingPage.js";
 // import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
-// import AgencyLandingPage from "demos/AgencyLandingPage.js";
-import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
+import About from "demos/AgencyLandingPage.js";
+import Home from "demos/SaaSProductLandingPage.js";
 // import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
-// import ServiceLandingPage from "demos/ServiceLandingPage.js";
+import Reviews from "demos/ServiceLandingPage.js";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
 // import LoginPage from "pages/Login.js";
 // import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
-// import AboutUsPage from "pages/AboutUs.js";
-// import ContactUsPage from "pages/ContactUs.js";
+import AboutUsPage from "pages/AboutUs.js";
+import ContactUsPage from "pages/ContactUs.js";
 // import BlogIndexPage from "pages/BlogIndex.js";
 // import TermsOfServicePage from "pages/TermsOfService.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
@@ -104,31 +104,34 @@ import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 // import ComponentRenderer from "ComponentRenderer.js";
 // import MainLandingPage from "MainLandingPage.js";
 
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-// export default function App() {
-//   // return <AnimationRevealPage disabled></AnimationRevealPage>;
-//   return (
-//     <Router>
-//       <Switch>
-//         <Route path="/components/:type/:subtype/:name">
-//           <ComponentRenderer />
-//         </Route>
-//         <Route path="/components/:type/:name">
-//           <ComponentRenderer />
-//         </Route>
-//         <Route path="/">
-//           <MainLandingPage />
-//         </Route>
-//       </Switch>
-//     </Router>
-//   );
-// }
+export default function App() {
+  // return <AnimationRevealPage disabled></AnimationRevealPage>;
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/about">
+          <AboutUsPage />
+        </Route>
+        <Route exact path="/reviews">
+          <Reviews />
+        </Route>
+        <Route exact path="/contact">
+          <ContactUsPage />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
+  );
+}
 
 // export default EventLandingPage;
 // export default HotelTravelLandingPage;
 // export default AgencyLandingPage;
-export default SaaSProductLandingPage;
+// export default SaaSProductLandingPage;
 // export default RestaurantLandingPage;
 // export default ServiceLandingPage;
 // export default HostingCloudLandingPage;

@@ -17,7 +17,7 @@ import customerSupportIllustrationSrc from "images/customer-support-illustration
 
 export default () => (
   <AnimationRevealPage>
-    <Hero />
+    {/* <Hero /> */}
     <MainFeature />
     <Features />
     <MainFeature2 />
